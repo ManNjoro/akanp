@@ -64,6 +64,22 @@ generater.addEventListener('click',()=>{
       akamname.innerHTML = `Please enter Your Gender`;
 
     }
+
+    if (gender =='' ) {
+
+        alert('Please Enter you birth date and gender')
+        //day.innerHTML = `Please enter your birthday`
+        akamname.innerHTML = `Please enter Your Gender`;
+  
+      }
+
+      if (dob =='') {
+
+        alert('Please Enter you birth date and gender')
+        day.innerHTML = `Please enter your birthday`
+        //akamname.innerHTML = `Please enter Your Gender`;
+  
+      }
     
 })
 

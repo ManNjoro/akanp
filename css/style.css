@@ -1,0 +1,45 @@
+body
+{
+    background: linear-gradient(45deg,rgb(92, 164, 205) 10%,rgb(4, 1, 49));
+    height: 100vh;
+    color: wheat;
+    text-align: center;
+}
+h3,label
+{
+    color: white;
+}
+#ttle
+{
+    border-bottom: 2px black solid;
+}
+#form
+{
+    /* background-color: aliceblue; */
+    padding: 5%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+} 
+#form input,#gender
+{
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: transparent;
+    outline: none;
+    text-align: center;
+    
+}
+
+
+#generater
+{
+    /* margin-top: 20px; */
+}
